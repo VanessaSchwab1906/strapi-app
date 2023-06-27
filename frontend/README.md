@@ -28,9 +28,7 @@ If you prefer to use GraphQL instead of the REST API, Strapi also provides a Gra
 To run the app locally, follow these steps:
 
 - Clone the repository
-- Install the dependencies for both the backend and frontend:
-- Configure the Strapi backend: 
-Set up your database connection in the .env file in the backend directory.
-Create the necessary content types and fields in the Strapi admin panel or using the Strapi CLI.
+- Install the dependencies for both the backend and frontend
+- Configure the Strapi backend: Set up your database connection in the .env file in the backend directory and create the necessary content types and fields in the Strapi admin panel or using the Strapi CLI.
 - Start the backend server and the frontend development server
 - Open your browser and navigate to http://localhost:3000 to access the app
