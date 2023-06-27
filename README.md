@@ -2,11 +2,6 @@
 
 This is a simple web application built with Strapi and React, allowing users to read reviews.
 
-## Features
-
-Browse reviews: Users can view a list of reviews on the main page.
-Read review details: Clicking on a review takes the user to a dedicated page displaying the full details of the selected review.
-
 ## API Options
 
 - REST API
