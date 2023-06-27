@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Simple Review App with Strapi 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple web application built with Strapi and React, allowing users to read reviews.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Browse reviews: Users can view a list of reviews on the main page.
+Read review details: Clicking on a review takes the user to a dedicated page displaying the full details of the selected review.
 
-### `npm start`
+##API Options
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- REST API
+The app retrieves data from the Strapi backend using a REST API. Axios is used to make HTTP requests to the relevant endpoints. The REST API endpoints provided by Strapi are as follows:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+/reviews: Fetches all reviews.
+/reviews/:id: Fetches a specific review by ID.
+You can refer to the Strapi documentation for more details on the available REST API endpoints and their usage.
 
-### `npm test`
+- GraphQL 
+If you prefer to use GraphQL instead of the REST API, Strapi also provides a GraphQL API. To interact with the GraphQL API, you can use Apollo Client or any other GraphQL client library of your choice.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The GraphQL endpoint for the Strapi backend is typically located at http://localhost:1337/graphql. You can utilize this endpoint to send GraphQL queries and mutations to retrieve and manipulate data.
 
-### `npm run build`
+##Getting Started
+To run the app locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Clone the repository
+- Install the dependencies for both the backend and frontend:
+- Configure the Strapi backend: 
+Set up your database connection in the .env file in the backend directory.
+Create the necessary content types and fields in the Strapi admin panel or using the Strapi CLI.
+- Start the backend server and the frontend development server
+- Open your browser and navigate to http://localhost:3000 to access the app
