@@ -4,7 +4,7 @@ This is a simple web application built with Strapi and React, allowing users to 
 
 ## API Options
 
-- REST API
+- REST API:
 The app retrieves data from the Strapi backend using a REST API. Axios is used to make HTTP requests to the relevant endpoints. The REST API endpoints provided by Strapi are as follows:
 
       /reviews: Fetches all reviews.
@@ -13,7 +13,7 @@ The app retrieves data from the Strapi backend using a REST API. Axios is used t
       
       You can refer to the Strapi documentation for more details on the available REST API endpoints and their usage.
 
-- GraphQL 
+- GraphQL:
 If you prefer to use GraphQL instead of the REST API, Strapi also provides a GraphQL API. To interact with the GraphQL API, you can use Apollo Client or any other GraphQL client library of your choice.
 
       The GraphQL endpoint for the Strapi backend is typically located at http://localhost:1337/graphql. 
