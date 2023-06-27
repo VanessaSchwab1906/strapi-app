@@ -7,7 +7,7 @@ This is a simple web application built with Strapi and React, allowing users to 
 Browse reviews: Users can view a list of reviews on the main page.
 Read review details: Clicking on a review takes the user to a dedicated page displaying the full details of the selected review.
 
-##API Options
+## API Options
 
 - REST API
 The app retrieves data from the Strapi backend using a REST API. Axios is used to make HTTP requests to the relevant endpoints. The REST API endpoints provided by Strapi are as follows:
@@ -21,7 +21,7 @@ If you prefer to use GraphQL instead of the REST API, Strapi also provides a Gra
 
 The GraphQL endpoint for the Strapi backend is typically located at http://localhost:1337/graphql. You can utilize this endpoint to send GraphQL queries and mutations to retrieve and manipulate data.
 
-##Getting Started
+## Getting Started
 To run the app locally, follow these steps:
 
 - Clone the repository
