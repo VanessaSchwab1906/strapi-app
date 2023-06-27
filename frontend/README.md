@@ -21,7 +21,8 @@ The app retrieves data from the Strapi backend using a REST API. Axios is used t
 - GraphQL 
 If you prefer to use GraphQL instead of the REST API, Strapi also provides a GraphQL API. To interact with the GraphQL API, you can use Apollo Client or any other GraphQL client library of your choice.
 
-      The GraphQL endpoint for the Strapi backend is typically located at http://localhost:1337/graphql. You can utilize this endpoint to send        GraphQL queries and mutations to retrieve and manipulate data.
+      The GraphQL endpoint for the Strapi backend is typically located at http://localhost:1337/graphql. 
+      You can utilize this endpoint to send GraphQL queries and mutations to retrieve and manipulate data.
 
 ## Getting Started
 To run the app locally, follow these steps:
