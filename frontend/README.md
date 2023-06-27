@@ -12,11 +12,11 @@ Read review details: Clicking on a review takes the user to a dedicated page dis
 - REST API
 The app retrieves data from the Strapi backend using a REST API. Axios is used to make HTTP requests to the relevant endpoints. The REST API endpoints provided by Strapi are as follows:
 
-/reviews: Fetches all reviews.
-
-/reviews/:id: Fetches a specific review by ID.
-
-You can refer to the Strapi documentation for more details on the available REST API endpoints and their usage.
+      /reviews: Fetches all reviews.
+      
+      /reviews/:id: Fetches a specific review by ID.
+      
+      You can refer to the Strapi documentation for more details on the available REST API endpoints and their usage.
 
 - GraphQL 
 If you prefer to use GraphQL instead of the REST API, Strapi also provides a GraphQL API. To interact with the GraphQL API, you can use Apollo Client or any other GraphQL client library of your choice.
